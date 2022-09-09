@@ -1,0 +1,379 @@
+body
+{
+    background-size: cover;
+    background :  url(../Images/bg.jpg) #FFFFFF ;
+    /* background :  url(../Images/gsms_bg1.jpg) #FFFFFF ; */
+    /* background :  url(../Images/gsms_bg2.jpg) #FFFFFF ;
+    background :  url(../Images/gsms_bg3.jpg) #FFFFFF ;
+    background :  url(../Images/gsms_bg4.jpg) #FFFFFF ;
+    background :  url(../Images/gsms_bg5.jpg) #FFFFFF ; */
+    /* background :  url(../Images/gsms_bg6.jpg) #FFFFFF ; */
+    /* background :  url(../Images/gsms_bg7.jpg) #FFFFFF ; */
+
+}
+
+
+h1
+{
+    text-align: center;
+    border-bottom: 1px solid #000000; 
+    font-family: "Arial Rounded MT Bold",Arial, Helvetica, sans-serif;
+}
+
+
+h2
+{
+    text-align: center;
+    font-family: "Arial Rounded MT Bold",Arial, Helvetica, sans-serif;
+}
+
+
+div
+{
+    padding: 2%;
+    background : #FFFFFF;
+    width: 60%;
+    margin: 2%;
+    position: fixed;
+    left: 15%;
+    font-family: Helvetica,sans-serif;
+    
+}
+
+
+th
+{
+    font-family: Cambria ,Helvetica,sans-serif;
+    font-variant: small-caps; 
+}
+
+
+td
+{
+    padding: 8px;
+    text-align: center;
+    font-family: Arial,Helvetica,sans-serif;
+    
+}
+
+
+header
+{
+    font-family: Helvetica,sans-serif;
+    font-style: bold;
+    display: block;
+    background: #c9e1ef;
+    padding: 2%; 
+}
+
+input
+{
+    
+    padding: 1%;
+    align-items: center;
+}
+
+
+
+
+select
+{
+    
+    align-items: center;
+}
+
+label
+{
+    color: #ffffff;
+    width: 30%;
+    display: inline-block;
+}
+
+#logout
+{
+    position: relative;
+    left: 90%;
+    color: #0000FF;
+    /* background: #FFFFFF; */
+}
+
+.submit-button
+{
+    margin-left: 25%;
+    width: 50%;
+    display: inline-block;
+}
+
+#cust_name
+{
+    padding: 1%;
+    background: #1515BD;
+    color : #ffffff;
+    border-radius: 5%;
+}
+
+#add-prod-container
+{
+    background: #14b99e;
+    background: linear-gradient(80deg, #9c27b0, #c30000);
+    display: relative;
+    width: 50%;
+    left: 20%;
+    margin-top: 8%;
+    border: 5px solid #000000;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: x-large;
+    font-family: Helvetica,sans-serif;
+}
+
+#add-order-container
+{
+    background-color: #94acd2;
+    background: linear-gradient(80deg, #9c27b0, #c30000);
+    display: relative;
+    width: 50%;
+    left: 20%;
+    margin-top: 8%;
+    border: 5px solid #000000;
+    border-radius: 25px;
+    padding: 20px;
+    font-size: x-large;
+    font-family: Helvetica,sans-serif;
+}
+
+#c_details
+{
+    padding: 1%;
+    font-family: "Century Gothic",Helvetica,sans-serif;
+}
+
+#order-details
+{
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    position : relative;
+    margin-top: 20%;
+    font-family: Helvetica,sans-serif;
+    overflow-y: scroll;
+    color: #000000;
+}
+
+#order-id
+{
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    position: relative;
+    left: 2%;
+    background: #0065ff;
+    color: #ffffff;
+    padding: 1%;
+    font-family: Helvetica,sans-serif;
+}
+
+#bill-generate
+{
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    position: relative;
+    left: 30%;
+    background: #0065ff;
+    color: #ffffff;
+    padding: 1%;
+    font-family: Helvetica,sans-serif;
+    text-decoration: none;
+}
+
+#c-name
+{
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    position: relative;
+    left: 58%;
+    background: #0042ff;
+    color: #ffffff;
+    padding: 1%;
+    font-family: Helvetica,sans-serif;
+}
+
+
+#manage_prod
+{
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    position: relative;
+    left: 68%;
+    /* margin-left: 5%; */
+    padding: 8px;
+    background: #1c52d1;
+    color: #ffffff;
+    border: 0;
+    border-radius: 2px;
+    text-decoration : none;
+}
+
+#new_order
+{
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    position: relative;
+    left: 71%;
+    /* margin-left: 1%; */
+    padding: 8px;
+    border: 0;
+    border-radius: 2px;
+    background: #3459bd;
+    text-decoration: none;
+    color: #ffffff;
+    /* position: fixed; */
+}
+
+table
+{
+    margin-top: 2%;
+    display: block;
+    border: 1px solid #000000;
+    position: center;
+    font-family: "Arial Unicode MS",Helvetica,sans-serif;
+    background: #CFEBE8;
+    color: #000000;
+}
+
+th
+{
+    width: 5%;
+    padding: 5px;
+}
+
+#total
+{
+    text-align: right;
+    margin-right: 1%;
+}
+
+#warehouse-btn
+{
+    position: fixed;
+    left: 55%;
+    /* margin-left: 5%; */
+    padding: 8px;
+    background: #1c52d1;
+    color: #ffffff;
+    border: 0;
+    border-radius: 2px;
+}
+
+#new_product
+{
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    position: relative;
+    left: 83%;
+    /* margin-left: 1%; */
+    
+    padding: 8px;
+    text-decoration: none;
+    border: 0;
+    border-radius: 2px;
+    background: #3459bd;
+    color: #ffffff;
+    /* position: fixed; */
+
+}
+
+#products_table
+{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+#delete_prod
+{
+    /* position: fixed;
+    left: 55%; */
+    margin: 4px;
+    padding : 2px;
+    border-radius: 2px;
+    /* background: #FF0000; */
+    /* color: #ffffff; */
+    text-decoration : none;
+}
+
+#o_details
+{
+    /* position: fixed;
+    left: 55%; */
+    margin: 4px;
+    padding : 2px;
+    border-radius: 2px;
+    /* background: #0f0bdb; */
+    color: #ffffff;
+    text-decoration : none;
+}
+
+#view-details
+{
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    margin: 4px;
+    padding : 4px;
+    border-radius: 2px;
+    background: #0f0bdb;
+    color: #ffffff;
+    text-decoration : none;
+}
+
+#view-order
+{
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    position: relative;
+    left: 45%;
+    /* margin-left: 5%; */
+    padding: 8px;
+    background: #1c52d1;
+    color: #ffffff;
+    border: 0;
+    border-radius: 2px;
+    text-decoration : none;
+}
+
+#frame
+{
+    margin: 2% auto auto 35%;
+}
+
+#bill
+{
+    font-size: 1.5em;
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    margin: 5% auto auto 40%;
+    padding: 5%;
+}
+
+#dt
+{
+    font-size: 1.5em;
+    font-style: bold;
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    text-align: right;
+    margin: 10% auto auto 20%;
+}
+
+#customer-name
+{   
+    font-size: 1.5em;
+    font-style: bold;
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    text-align: center;
+}
+
+#bill-total
+{
+    font-size: 1.5em;
+    font-style: bold;
+    font-family: "Century Gothic",Helvetica,sans-serif;
+    text-align: right;
+    margin: 25% auto auto 65%;
+}
+
+#bottom
+{
+    font-size: 1.5em;
+    font-family: bold;
+    display: block;
+    /* margin-top: 75%;  */
+    margin: 1% auto auto 20%;
+}
